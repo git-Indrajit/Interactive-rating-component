@@ -1,1 +1,70 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive rating component</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+
+    <section id="rating-component">
+        <div class="rating-content">
+            <div class="star-img">
+                <img src="images/icon-star.svg" alt="star">
+            </div>
+            <h2> How did we do?</h2>
+            <p>Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!</p>
+            <form>
+                <ul class="rating-numbers">
+                    <li class="rating-number">
+                        <button id="1-rating" class="rating-btn" type="button">1</button>
+                    </li>
+                    <li class="rating-number m-left">
+                        <button id="2-rating" class="rating-btn" type="button">2</button>
+                    </li>
+                    <li class="rating-number m-left">
+                        <button id="3-rating" class="rating-btn" type="button">3</button>
+                    </li>
+                    <li class="rating-number m-left">
+                        <button id="4-rating" class="rating-btn" type="button">4</button>
+                    </li>
+                    <li class="rating-number m-left">
+                        <button id="5-rating" class="rating-btn" type="button">5</button>
+                    </li>
+                </ul>
+                <div class="submit-container">
+                    <input type="submit" id="submit-btn" value="SUBMIT">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Rating state start -->
+
+    <section id="thankyou-container">
+        <div class="thankyou-img">
+            <img src="images/illustration-thank-you.svg" alt="thank you">
+        </div>
+        <p id="dynamic-text">
+            You selected  <span class="dynamic-number"> </span> out of 5
+        </p>
+        <h2 class="thankyou-heading">Thank you!</h2>
+        <p class="thankyou-text">
+            We appreciate you taking the time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!
+        </p>
+    </section>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Indrajit Som</a>.
+    </div>
+    <script src="Js/app.js"></script>
+</body>
+
+</html>
