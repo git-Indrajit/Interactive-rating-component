@@ -1,1 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Overpass", sans-serif;
+    font-size: 0.938rem;
+    background: hsl(216, 12%, 8%);
+    min-height: 100vh;
+}
+
+li{
+    list-style: none;
+}
+.m-left{
+    margin-left: 1.3rem;
+}
+
+#rating-component{
+    background: hsl(213, 19%, 18%);
+    width: 25.75rem;
+    height: 26rem;
+    border-radius: 1.875rem;
+    margin: 5rem auto;
+}
+
+.rating-content{
+    padding: 2rem 1rem 0 2rem;
+}
+
+.star-img{
+    background:hsl(215, 25%, 15%);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-content h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.75rem;
+    padding-top: 2rem;
+    font-weight: 700;
+}
+
+.rating-content p{
+    color: hsl(217, 12%, 63%);
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.rating-numbers{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding-top: 2.3rem;
+}
+
+.rating-numbers button{
+    color: hsl(217, 12%, 63%);
+    background: hsl(215, 25%, 15%);
+    width: 3.188rem;
+    height: 3.188rem;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+#submit-btn{
+    background: hsl(25, 97%, 53%);
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 1.375rem;
+    width: 21.313rem;
+    height: 2.813rem;
+    margin-top: 1.5rem;
+    letter-spacing: .125rem;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+#submit-btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.rating-numbers button:hover{
+    background:  hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+/* Dynamic */
+
+.rating-number button.active{
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+
+/* thankyou-container */
+
+#thankyou-container{
+    background: hsl(213, 19%, 18%);
+    width: 25.75rem;
+    height: 26rem;
+    border-radius: 1.875rem;
+    margin: 5rem auto;
+    text-align: center;
+    display: none;
+}
+
+.thankyou-img{
+    padding-top: 2rem;
+
+}
+
+#dynamic-text{
+    border-radius:1.875rem;
+    background: hsl(215, 25%, 15%);
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+    width: 10.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem auto;
+}
+
+.dynamic-number{
+    padding: 0 0.188rem;
+}
+.thankyou-heading{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.75rem;
+    margin-bottom: .7rem;
+}
+
+.thankyou-text{
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    padding: 0 2.3rem;
+    line-height: 1.375;
+}
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  
+}
